@@ -1,0 +1,88 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .form__header {
+    width: 800px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 880px;
+  }
+
+  .form__header {
+    width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 714px;
+  }
+
+  .form {
+    padding: 24px 0 24px;
+  }
+
+  .form__header {
+    width: 656px;
+  }
+
+  .users__card {
+    width: 315px;
+  }
+
+  .users__wrapper {
+    gap: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  a,
+  .users__card-data div,
+  label,
+  input[type="date"],
+  button {
+    font-size: 16px;
+  }
+
+  button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .form__header {
+    width: 100%;
+  }
+
+  .form__birthdate {
+    flex-direction: column;
+    align-items: normal;
+    display: flex;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  a,
+  .users__card-data div,
+  label,
+  input[type="date"],
+  button {
+    font-size: 14px;
+  }
+}
+

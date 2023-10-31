@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form birthday</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/media.css" />
+</head>
+
+<body>
+    <section class="form">
+        <div class="container">
+            <div class="form__header">
+                <h2 class="form__title">Choose birthdate</h2>
+                <form class="form__birthdate">
+                    <div class="form__wrapper">
+                        <label for="birthdateFrom">From:</label>
+                        <input type="date" id="birthdateFrom" />
+                    </div>
+                    <div class="form__wrapper">
+                        <label for="birthdateTo">To:</label>
+                        <input type="date" id="birthdateTo" />
+                    </div>
+
+                    <button type="submit" class="form__reload">Reload</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="users">
+        <div class="container">
+            <div class="users__wrapper"></div>
+        </div>
+    </section>
+</body>
+<script src="src/js/script.js"></script>
+
+</html>

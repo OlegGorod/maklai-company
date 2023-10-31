@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Rubik:wght@400;500;700&family=Varela+Round&display=swap");
+
+@import 'form.css';
+@import 'users.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #afafaf14;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #4a4a68;
+  font-family: Merriweather;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+
