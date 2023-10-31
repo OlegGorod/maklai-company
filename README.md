@@ -1,2 +1,4 @@
 # maklai-company
-test app to fetch data from API
+test app to fetch data from API on JS
+
+https://form-birthday.netlify.app/
